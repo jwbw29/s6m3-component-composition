@@ -10,7 +10,8 @@ const StyledHeader = styled.div`
     letter-spacing: 0.5rem;
     font-size: 6rem;
     font-weight: 700;
-    padding: 0 2rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
     align-self: flex-end;
   }
 
