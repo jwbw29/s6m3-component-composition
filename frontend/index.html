@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <title>React Project</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="favicon.ico">
-  <title>React Project</title>
-</head>
+  <body>
+    <div id="root"></div>
 
-<body>
-  <header>
-    <h1>NASA Photo of the Day</h1>
-  </header>
+    <footer></footer>
 
-  <div id="root"></div>
-
-  <footer></footer>
-
-  <script>
-    const footer = document.querySelector('footer')
-    const currentYear = new Date().getFullYear()
-    footer.textContent = `© BLOOM INSTITUTE OF TECHNOLOGY ${currentYear}`
-  </script>
-</body>
-
+    <script>
+      const footer = document.querySelector("footer");
+      const currentYear = new Date().getFullYear();
+      footer.textContent = `© BLOOM INSTITUTE OF TECHNOLOGY ${currentYear}`;
+    </script>
+  </body>
 </html>

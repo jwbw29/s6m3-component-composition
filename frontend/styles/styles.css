@@ -1,10 +1,9 @@
-@font-face {
-  font-family: 'Titillium Web';
-  src: url('../fonts/TitilliumWeb-SemiBold.ttf');
+* {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #4d9de0;
 }
-
 body {
-  font-family: 'Titillium Web', sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -13,10 +12,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-h1, h2 {
-  color: #93005a;
 }
 
 #root {
@@ -28,7 +23,7 @@ h1, h2 {
   padding-bottom: 2rem;
 }
 
-header, footer {
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
