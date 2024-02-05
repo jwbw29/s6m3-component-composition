@@ -28,7 +28,7 @@ function Header() {
   return (
     <StyledHeader>
       <h1>APOD</h1>
-      <h3>Astronomy Photo of the Day</h3>
+      <h3>Astronomy Picture of the Day</h3>
     </StyledHeader>
   );
 }
