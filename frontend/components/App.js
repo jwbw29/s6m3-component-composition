@@ -20,7 +20,12 @@ function App() {
           console.error(err);
         });
     }
+
+    // TODO uncomment this before final submission
     // fetchPhoto();
+
+    // TODO comment this out before final submission
+
     setData({
       copyright: "\nJordi L. Coy\n",
       date: "2023-08-08",
