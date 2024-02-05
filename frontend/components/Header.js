@@ -11,6 +11,7 @@ const StyledHeader = styled.div`
     font-size: 6rem;
     padding-right: 2rem;
     padding-left: 1rem;
+    text-align: ;
   }
 
   h3 {
@@ -18,7 +19,7 @@ const StyledHeader = styled.div`
     letter-spacing: 0.16rem;
     font-size: 1.5rem;
     font-weight: 400;
-    padding-bottom: 30px;
+    padding-bottom: 27px;
   }
 `;
 

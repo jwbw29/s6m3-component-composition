@@ -30,6 +30,7 @@ body {
   align-items: flex-start;
   padding-left: 1rem;
   padding-right: 1rem;
+  gap: 1rem;
 }
 
 footer {
