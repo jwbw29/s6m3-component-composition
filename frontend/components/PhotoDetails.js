@@ -2,16 +2,24 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledDetails = styled.div`
+  display: flex;
+  gap: 5rem;
+
+  figure {
+    width: 50%;
+  }
+
   img {
     float: left;
-    width: 46%;
     border-radius: 1rem;
   }
+
   div.text-container {
-    display: inline-block;
-    width: 46%;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
   }
+
   h1 {
     color: ${(pr) => pr.theme.secondaryColor};
     font-size: 2.5rem;
@@ -19,7 +27,8 @@ const StyledDetails = styled.div`
     letter-spacing: 0.14rem;
   }
   div.subtitles {
-    display: inline-block;
+    display: flex;
+    gap: 2rem;
   }
 
   h3#cw {
@@ -33,11 +42,11 @@ const StyledDetails = styled.div`
     color: ${(pr) => pr.theme.tertiaryColor};
     font-weight: lighter;
     display: inline-block;
-    margin-left: 2rem;
   }
   p {
     color: ${(pr) => pr.theme.tertiaryColor};
-    font-weight: normal;
+    max-width: 80%;
+    margin-top: 2rem;
   }
 `;
 
