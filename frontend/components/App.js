@@ -40,7 +40,7 @@ function App() {
   }, []);
 
   return (
-    <div>
+    <div className="App">
       <Header />
       <PhotoDetails
         title={data.title}

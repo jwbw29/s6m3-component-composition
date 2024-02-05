@@ -6,7 +6,7 @@
 body {
   display: flex;
   flex-direction: column;
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 #root {
@@ -22,6 +22,14 @@ body {
   border-bottom: 1px solid grey;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 footer {

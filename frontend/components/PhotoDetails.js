@@ -5,6 +5,7 @@ const StyledDetails = styled.div`
   img {
     float: left;
     width: 46%;
+    border-radius: 1rem;
   }
   div.text-container {
     display: inline-block;

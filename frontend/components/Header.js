@@ -9,10 +9,8 @@ const StyledHeader = styled.div`
     color: ${(pr) => pr.theme.secondaryColor};
     letter-spacing: 0.5rem;
     font-size: 6rem;
-    font-weight: 700;
     padding-right: 2rem;
     padding-left: 1rem;
-    align-self: flex-end;
   }
 
   h3 {
