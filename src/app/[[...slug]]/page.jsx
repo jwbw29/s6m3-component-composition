@@ -2,7 +2,7 @@
 import React from "react";
 
 import dynamic from "next/dynamic";
-import "../../index.css";
+import "../styles/styles.css";
 
 const App = dynamic(() => import("../../app"), { ssr: false });
 

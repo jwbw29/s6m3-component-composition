@@ -7,7 +7,8 @@
   },
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:@next/next/recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,9 +17,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "rules": {
     "react/prop-types": 0
   }
