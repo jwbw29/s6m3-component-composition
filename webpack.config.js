@@ -15,8 +15,8 @@ const FILE_LOADER = "file-loader";
 const SERVER_URL = /http:\/\/localhost:9009/g;
 const FRONTEND_PORT = 3003;
 
-const INDEX_HTML_PATH = "./src/frontend/index.html";
-const INDEX_JS_PATH = "./src/frontend/index.js";
+const INDEX_HTML_PATH = "./src/app/index.html";
+const INDEX_JS_PATH = "./src/app/index.js";
 const DIST_FOLDER = "dist";
 const BUNDLE_FILE = "index.js";
 const AUDIO = "audio/";
