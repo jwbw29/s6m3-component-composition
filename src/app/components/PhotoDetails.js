@@ -56,6 +56,7 @@ function PhotoDetails(props) {
   return (
     <StyledDetails>
       <figure>
+        {/* maybe switch <img /> to the <Image /> component? */}
         <img src={url} alt="photo to the left" />
       </figure>{" "}
       <div className="text-container">
